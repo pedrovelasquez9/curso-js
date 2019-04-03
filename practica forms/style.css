@@ -1,0 +1,22 @@
+input{
+	margin:15px;
+}
+
+.btnClass{
+	border:none;
+	background-color: blueviolet;
+	border-radius: 5px;
+	padding: 15px;
+	font-weight: bold;
+	color:white;
+}
+
+#container{
+	float: left;
+	width: 20%;
+}
+
+#results{
+	float: right;
+	width: 75%;
+}

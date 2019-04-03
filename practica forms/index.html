@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Forms con JS</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Hola Forms dinámicos</h1>
+	<div id="container">
+		<form>
+			<label>Nombre:</label>
+			<input type="text" name="nombre" id="nombre" placeholder="Nombre" required><br>
+			<label>Apellido:</label>
+			<input type="text" name="apellido" id="apellido" placeholder="Apellido" required><br>
+			<label>Edad:</label>
+			<input type="number" name="edad" id="edad" required min="18" max="100"><br>
+			<label>Teléfono:</label>
+			<input type="text" name="telefono" id="telefono"><br>
+			<label>Email:</label>
+			<input type="email" name="email" id="email" required placeholder="email@yopmail.com"><br>
+		</form>
+		<button id="btn" class="btnClass" onclick="enviarForm()">Enviar</button>
+	</div>
+	<div id="results">
+
+	</div>
+</body>
+</html>
